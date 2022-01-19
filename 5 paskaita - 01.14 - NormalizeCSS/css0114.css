@@ -1,0 +1,144 @@
+
+/* -------- Bendri stliai -------*/
+
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+html{
+    scroll-behavior: smooth;
+  }
+
+body{
+    height: 200vh;
+}
+
+
+.relative{
+    position: relative;
+    height: 80vh;
+}
+
+/* -------- MENIU -------*/
+.menu{
+    height: 60px;
+    width: 100%;
+    background-color: grey;
+
+    position: sticky;
+    top: 0;
+}
+
+nav{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 20%;
+    padding: 5px 10px;
+    background-color: rgb(235, 159, 159);
+    
+}
+
+.menu a:hover{
+    background-color: rgb(240, 255, 240, 0.3);
+}
+
+/* -------- Home skiltis bus -------*/
+
+#home{
+    height: 50vh;
+    background-image: url("./images/most-popular-video-games-of-2020-1582141293.png");
+   /* background-size: contain;
+    background-repeat: no-repeat;*/
+
+}
+#home div{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 100px
+}
+
+#home h1{
+    font-size: 50px;
+    text-align: center;
+    color: red;
+    text-shadow: 5px 3px 3px blue;
+}
+
+/*----- About ----*/
+
+#about{
+    background-image: linear-gradient(
+        to left top,
+        rgb(192, 187, 117),
+        rgb(156, 109, 150),
+        rgb(223, 219, 161)
+
+    );
+    min-height: 50vh;
+}
+
+#about > div:nth-child(1){
+    padding-top: 60px;
+    width: 200px;
+    margin: 0 auto;
+}
+#about h1{
+    font-size: 80px;
+    color: rgb(97, 86, 86);
+
+}
+
+#about div img{
+height: 200px;
+width: auto;
+}
+
+.floatRight{
+float: right;
+}
+.floatLeft{
+    float: left;
+    }
+    .clearFix{
+        clear: both;
+    }
+
+    .gameText{
+        display: inline-block;
+        width: 60%;
+    }
+
+    /*--- Contact---*/
+
+    #contact{
+        min-height: 50vh;
+        background-image: radial-gradient(
+          circle at center,
+          rgb(251, 148, 148),
+          rgb(166, 166, 251)
+        );
+      }
+
+    /*------footer----*/
+
+    footer{
+        height: 60px;
+        width: 100%;
+        background-color: grey;
+    }
+
+    footer h1{
+        text-align: center;
+        margin: 0;
+    }
+
+    footer div{
+        padding-top: 20px;
+        width: 500px;
+        margin: auto;
+      }

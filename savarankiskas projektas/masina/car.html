@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car</title>
+    <link rel="stylesheet" href="carcss.css">
+</head>
+<body>
+    <main>
+        <h1>
+            Find The Right Car Now
+        </h1>
+        <form>
+            <label for="nameInput"></label>
+            <input type="text" name="nameInput"id="nameInput"placeholder="Your Name" minlength="3"
+            maxlength="20"><br>
+            <label for="emailInput"></label>
+            <input type="email" name="emailInput"id="emailInput"placeholder="Enter your Email" minlength="3"
+            maxlength="20"><br>
+            <label for="telInput"></label>
+            <input type="tel" name="telInput"id="telInput"placeholder="Phone Number" minlength="3"
+            maxlength="20"><br>
+            <label for="selectionBrand"></label><br>
+            <select class="brand" name="selectionBrand" id="selectionBrand">
+                <option value="">Select Brand</option>
+                <option value="">Audi</option>
+                <option value="">BMW</option>
+                <option value="">Ford</option>
+                <option value="">Mercedes-Benz</option>
+                <option value="">Volvo</option>
+            </select>
+                <label for="selectionType"></label>
+                <select class="type" name="selectionType" id="selectionType">
+                    <option value="">Type of Car</option>
+                    <option value="">Sedan</option>
+                    <option value="">Coupe</option>
+                    <option value="">4x4</option>
+                    <option value="">Combi</option>
+                    <option value="">Truck</option>
+                </select>
+            </form> <br>
+
+                <p><b>Select Your Price</b></p>
+                <div class="price">
+                    <label for="fortiInput">Below $40,000</label>
+                    <input type="radio" name="fortiInput" id="fortiInput">
+                
+            <label for="trisiInput"> $43,000</label>
+        <input type="radio" name="trisiInput" id="trisiInput">
+        
+            <label for="fiveInput">$45,000</label>
+        <input type="radio" name="fiveInput" id="fiveInput">
+        
+            <label for="nineiInput">$95,000</label>
+        <input type="radio" name="nineiInput" id="nineiInput">
+    </div>
+        
+        <input class="button1" type="submit" value="Send!">
+    </section>
+    </main>
+    
+</body>
+</html>

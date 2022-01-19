@@ -1,0 +1,54 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+.antras th{
+    border: 1px solid white;
+    padding: 6px 10px;
+    font-weight: normal;
+}
+.antras td{
+    border: 1px solid white;
+    padding: 5px 10px;
+}
+
+
+
+.antras tr td:nth-child(1n + 4)::before{
+    content: "$";
+}
+
+
+.film{
+    background-color: rgb(64, 163, 209);
+}
+
+.title{
+    text-align: left;
+}
+thead tr{
+    color: white;
+    
+}
+
+.antras tbody tr:nth-child(2n){
+    background-color: rgb(240, 226, 226);
+    }
+
+    .antras tbody td:nth-of-type(1n+2){
+        text-align: center;
+    }
+
+    .antras tbody td:nth-of-type(1n+2){
+        border-bottom: 1px solid blue;
+    }
+    .antras tr:hover:nth-child(1n + 1){
+        background-color: rgb(219, 212, 212);
+    }
+    
+    .antras td:hover{
+        background-color: rgb(109, 103, 103);
+    }
+    
+    
+
+
+

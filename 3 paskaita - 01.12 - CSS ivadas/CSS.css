@@ -1,0 +1,179 @@
+.Kvadratas{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(221, 221, 171);
+    margin-bottom: 10px;
+
+    text-align: center;
+    line-height: 100px;
+}
+
+/* Linijiniai uzima tik tiek vietos kiek reikia ju viduje esantiems elementams. 
+Sitaip ignoruoja plocio bei aukscio nustatymus.
+Taip pat issidesto vienas salia kito */
+
+.inline{
+    display: inline;
+
+}
+
+/* Blokiniai uzima visa eilute ( neisileidzia kitu elemntu i ta pacia eilute).
+Gali priimti plocio ir aukscio nustatymus */
+
+.block{
+    display: block;
+}
+
+/* Inline-block uzima tik tiek vietos kiek reikia ju viduje esantiems elementams, priima aukscio ir plocio nustatymus. Taip pat issidesto vienas salia kito */
+.inline-block{
+    display: inline-block;
+}
+
+}
+
+.tekstoDydisDidelis{
+    font-size: 37px;
+}
+
+.tekstasParyskintas{
+    font-weight: bold;
+}
+
+.spalvaRaudona{
+    color: red; /* !important (pakeicia prioritetus i ta kur tai parasyta) */
+}
+
+.spalvaZalia{
+    color: green !important;
+}
+
+#kvadratas{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(221, 221, 171);
+    margin-bottom: 10px;
+    color: red;
+
+    text-align: center;
+    line-height: 100px;
+}
+
+#dydis{
+    font-size: 50px;
+    color: green;
+}
+
+h4{
+    font-size: 30px;
+    color: brown;
+    font-family: cursive;
+}
+
+.tagViduje > p{
+    color: green;
+    font-size: 20px;
+}
+
+#idIrClass{
+    color: indigo;
+    font-size: 30px;
+}
+
+.classIrID{
+    color: red;
+    background-color: greenyellow;
+
+}
+
+.slepti{
+    display: none;
+}
+
+/*------ Mini puslapis -----*/
+/*
+color
+widht - plotis
+height - aukstis
+background-color
+font-size
+border
+font-family
+display
+line-heght
+text-align - lygevimas
+Text-decoration
+*/
+
+.Logo, .links{
+    display: inline-block;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+.hero > h1{
+    color: rgb(112, 59, 59);
+    font-style: oblique;
+    font-size: 50px;
+}
+
+.hero > p{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    font-style: italic;
+}
+
+h3{
+    color: black;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+
+.about{
+    font-size: 30px;
+    text-align-last: left;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+.about > p{
+    padding: 50px;
+    font-size: 20px;
+}
+
+ul{
+    display: block;
+    font-size: 20px;
+}
+
+.pabaiga{
+    font-weight: bold;
+}
+
+div{
+    font-size: 15px;
+    text-align-last: left;
+    font-style: italic;
+    font-weight: bold;
+}
+
+input{
+    border: double;
+    border-radius: 10px;
+
+  
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    
+    
+}
+
+

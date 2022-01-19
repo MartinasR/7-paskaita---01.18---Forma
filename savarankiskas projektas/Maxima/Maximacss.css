@@ -1,0 +1,105 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+html{
+    scroll-behavior: smooth;
+    display: inline-block;
+  }
+
+body{
+    height: 200vh;
+    background-color: rgb(207, 200, 200);
+    margin: 40px;
+}
+.relative{
+    position: relative;
+    height: 80vh;
+}
+
+
+.meniu{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.2);
+    background: white;
+    width: 50%;
+    text-align: center;
+}
+
+.meniu img{
+   padding-top: 30px;
+}
+h1{
+font-size: 30px;
+}
+
+a{
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+}
+#about{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.2);
+    background: white;
+    width: 50%;
+    text-align: center;
+}
+  
+
+#about img{
+height: 450px;
+width: auto;
+}
+#about b{
+    font-size: 30px;
+}
+
+.tekstas{
+    text-align: left;
+    padding: 40px;
+}
+.dydis{
+    font-size: 1.5em;
+}
+
+#products{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.2);
+    background: white;
+    width: 50%;
+    text-align: center;
+}
+
+.produktai{
+    font-size: 30px;
+}
+
+.varske{
+    font-size: 17px;
+}
+
+
+#contact{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.2);
+    background: white;
+    width: 50%;
+
+}
+
+#contact img{
+    height: 600px;
+width:700px;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 10px;
+margin-top: 40px;
+}

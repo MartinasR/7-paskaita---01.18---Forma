@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    height: 200vh;
+}
+
+.modelDezute img{
+    width: 200px;
+    height: auto;
+background-color: maroon;
+/* margin - atitraukimas nuo aplinkiniu elementu 
+margin-top: 50px;
+margin-right: 100px;
+margin-bottom: 10px;
+margin-left: 200px;*/
+
+/* margin: 50px-top 100px-right 10px-bottom 200px-left -
+ naudoti dazniau nei virsutini
+ margin: 50px 150px 10px;
+ margin: 30px 150px;*/ /*margin: 0 - auto*/
+margin: 90px;
+
+/*border: 5px solid green;
+border-width: 5px;*/
+border-width: 10px 10px 0px;
+/*border-style: solid;*/
+border-style: solid dotted none;
+border-color: green;
+/* border irgi gali buti skirstomi i top right bottom left,
+bei bendrai aprasome 4,3,2,1 stilius*/
+
+padding: 30px;
+/* Padding irgi gali buti skirstomi i top right bottom left,
+bei bendrai aprasome 4,3,2,1 stilius*/
+
+}
+
+.kvadratas{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: black;
+}
+
+.spalvaSuPavadinimu1{
+
+    background-color: red;
+
+}
+
+.spalvaSuPavadinimu2{
+    background-color: blue;
+}
+
+.spalvaPagalRGB1{
+background-color: rgb(0,255,0);
+
+}
+.spalvaPagalRGB2{
+background-color: rgb(0,0,255);
+    
+}
+.spalvaPagalRGB3{
+background-color: rgba(255, 0, 0, 0.2 );
+    
+}
+.spalvaPagalRGB4{
+background-color: rgb(255,0,0,0.9);
+    
+}
+
+/* pavadinimu 140 sppalvu
+kitais budais 255*255*255*100=1.6 mlrd*/
+
+.spalvaPagalHex1{
+background-color: #aa0000;
+}
+.spalvaPagalHex2{
+    background-color: #00aa00;
+}
+.spalvaPagalHex3{
+    background-color: #063806a0;
+}
+.spalvaPagalHex4{
+    
+}
+
+.spalvaPagalHsl1{
+background-color: hsl(240,100%,50%, 0.5);
+}
+.spalvaPagalHsl2{
+    background-color: rgba(30, 130, 143, 0.61);
+}
+.spalvos{
+    background-image: url("./Images/futbolo-kamuolys-maziems-vaikams-fashy.jpg");
+}

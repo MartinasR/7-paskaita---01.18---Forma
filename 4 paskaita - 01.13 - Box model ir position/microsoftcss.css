@@ -1,0 +1,62 @@
+body{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+
+.Logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+text-align: center;
+}
+
+.a1{
+    margin-right: 90px;
+    color: white;
+}
+.a2{
+    margin-right: 90px;
+    color: white;
+}
+.a3{
+    margin-right: 40px;
+    color: white;
+}
+
+.meniu1{
+    background-color: green;
+    padding: 40px;
+    text-align: center;
+}
+.miskas{
+text-align: center;
+padding: 30px;
+background-color: rgb(211, 209, 209);
+}
+.hero{
+    background-color: rgb(211, 209, 209) ;
+}
+.apie{
+    background-color: green;
+    font-size: 30px;
+    font-style: normal;
+    color: white;
+    padding: 10px;
+
+}
+
+.para{
+    text-align: left;
+}
+.kontakt{
+    background-color: green;
+    font-size: 30px;
+    font-style: normal;
+    color: white;
+    padding: 10px;
+}
+
+.about{
+    background-color: rgb(152, 243, 152);
+}

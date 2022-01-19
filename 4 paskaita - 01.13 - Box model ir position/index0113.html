@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model ir position</title>
+    <link rel="stylesheet" href="indexCss.css">
+</head>
+
+<body>
+    <section>
+        <!-- Model Box -->
+        <div class="modelDezute">
+            <img src="./Images/futbolo-kamuolys-maziems-vaikams-fashy.jpg">
+        </div>
+
+    </section>
+    <section class="spalvos">
+        <!-- Spalvos -->
+        <div class="kvadratas spalvaSuPavadinimu1"></div>
+        <div class="kvadratas spalvaSuPavadinimu2"></div>
+        <div class="kvadratas spalvaPagalRGB1"></div>
+        <div class="kvadratas spalvaPagalRGB2"></div>
+        <div class="kvadratas spalvaPagalRGB3"></div>
+        <div class="kvadratas spalvaPagalRGB4"></div>
+        <div class="kvadratas spalvaPagalHex1"></div>
+        <div class="kvadratas spalvaPagalHex2"></div>
+        <div class="kvadratas spalvaPagalHex3"></div>
+        <div class="kvadratas spalvaPagalHex4"></div>
+        <div class="kvadratas spalvaPagalHsl1"></div>
+        <div class="kvadratas spalvaPagalHsl2"></div>
+
+    </section>
+    <section> <!-- position -->
+        <h1>Positions</h1>
+        <div>
+            <h3>
+                Static
+            </h3>
+            <p> Statine pozicija nesuteikia jokio stiliaus
+                Dazniau naudojama tam, kad nuimti kazkuria pozicija nuo elemento
+            </p>
+        </div>
+        <div>
+            <h3>
+                Relative
+            </h3>
+            <p> Relatyvioji pozicija igalina elementui top, right,bottom,
+                 left ir z-index stilius. Top,right,bottom ir left 
+                 atstumia elementa nuo jo pradines pozicijos. <br> 
+                 Nurodo ribas kitoms pozicijoms.
+            </p>
+        </div>
+        <div>
+            <h3>
+                Absolute
+            </h3>
+            <p>
+                Absoliucioji pozicija igalina elementui top, right,bottom,
+                 left ir z-index stilius. Top,right,bottom,left atstumia elementa
+                 nuo jo tevinio ( tevinio tevinio) (tevinio tevinio tevinio) (...)(...)
+                  elemento krastu jeigu sis turi relative pozicija
+            </p>
+        </div>
+        <div>
+            <h3>
+                Fixed
+            </h3>
+            <p>
+                Fiksuota pozicija igalina elementui top, right,bottom,
+                left ir z-index stilius. Top,right,bottom,left atstumia elementa
+                lieka fiksuotas ekrane kol scroliname<br>
+                 Jisai lieka fiksuotas ekrane kol yra scroll'inama jo
+                 (tevino tevinio)(...) (...) body elemento, kuris turi
+                 relative pozicija
+            </p>
+        </div>
+        <div>
+            <h3>
+                Sticky
+            </h3>
+            <p>
+                Sticky pozicija igalina elementui top, right,bottom,
+                left ir z-index stilius. Top,right,bottom,left nurodo kur elementa
+                prie jo tevinio ( tevinio tevinio) (tevinio tevinio tevinio) (...)(...)
+                 elemento krastu jeigu sis turi relative pozicija kai iki jo bus atslenkama<br>
+                 Jisai lieka fiksuotas ekrane kol yra scroll'inama jo
+                 (tevino tevinio)(...) (...) body elemento, kuris turi
+                 relative pozicija
+            </p>
+        </div>
+
+    </section>
+</body>
+
+</html>

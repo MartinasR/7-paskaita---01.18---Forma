@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Ivadas</title>
+    <link rel="stylesheet" href="CSS.css">
+</head>
+
+<body>
+    <section class="slepti">
+        <!-- Klasiu, ID ir tagu selektroiai-->
+        <h1>Klasiu, ID ir tagu selektroiai</h1>
+        <div>
+            <h3>Klases</h3>
+            <p>
+                Viena klase gali buti skirta daugeliui elementu.CSS rasant klase reikia pradeti nuo . (tasko) klases pavadinimas
+                Vienas elementas gali tureti daug Classiu, Klases nurodytas vienodas stilius yra priritizuojamas pagal
+                tai, kelintas eileje jis yra aprasytas CSS faile.Tevinio elemento vienodas CSS stilius yra
+                priritiziojamas senelinio elemnto atzvilgiu. (parentparent - snelinis)(Parent - tevinis)
+
+            </p>
+            <div class="Kvadratas
+            spalvaRaudona
+            tekstoDydisDidelis
+            spalvaZalia
+            tekstasParyskintas">
+                <div class="spalvaRaudona">
+                    Klases
+                </div>
+            </div>
+        </div>
+        <div> <!-- ID -->
+            <h3>ID</h3>
+            <p>
+                Vienas ID turi buti priskiriamas vienam elemntui. CSS rasant ID reikia parasyti # ir tada ID vardas
+                Vienas elementas gali tureti tik viena ID
+            </p>
+            <div id="kvadratas">
+
+                <div id="dydis">ID</div>
+            </div>
+            <div id="Kvadratas">ID dar</div> <!-- Negalima -->
+        </div>
+        <div> <!-- Tag -->
+            <h3>Tagai</h3>
+            <p>
+                Norint kreiptis i taga is CSS reikia parasyti jo varda
+            </p>
+            <div class="tagViduje">
+                <h4>H4 tagas</h4>
+                <p>P tagas</p>
+                <span>Span Tagas</span><br>
+                <a href="https://www.google.com"> a tagas</a>
+            </div>
+        </div>
+        <div> <!-- ID ir Klases -->
+            <h3>ID ir klases</h3>
+            <p>
+                ID turi prioriteta Klasiu atzvilgiu
+            </p>
+            <div id="idIrClass" class="kvadratas classIrID">Class + ID </div>
+        </div>
+
+    </section>
+    <section class="slepti">
+        <!-- Display inline (block) ir inline-block -->
+        <h1>Display</h1>
+        <div>
+            <h3>Inline</h3>
+            <div class="Kvadratas inline">Inline</div>
+            <div class="Kvadratas inline">Inline</div>
+            <div class="Kvadratas inline">Inline</div>
+        </div>
+        <div>
+            <h3>Block</h3>
+            <div class="Kvadratas block">Block</div>
+            <div class="Kvadratas block">Block</div>
+            <div class="Kvadratas block">Block</div>
+        </div>
+        <div>
+            <h3>Inline-Block</h3>
+            <div class="Kvadratas inline-block">Inline-Block</div>
+            <div class="Kvadratas inline-block">Inline-Block</div>
+            <div class="Kvadratas inline-block">Inline-Block</div>
+        </div>
+    </section>
+    <section>
+        <div class="meniu">
+            <div class="Logo">
+                <img src="./images/0148-krepsinis1-600x360.jpg" height="325px" width="475px">
+            </div>
+            <div class="links">
+                <nav>
+                    <a href="#hero">
+                        <button type="Pradzia">
+                            <b>Pradzia</b> </button>
+                        </a>
+                    <a href="#about">
+                    <button type="Apie">
+                    <b>Apie</b> </button>
+                </a>
+                <a href="#contact">
+                    <button type="Kontaktai">
+                    <b>Kontaktai</b> </button>
+                </a>
+                </nav>
+            </div>
+
+        </div>
+        <div class="hero">
+            <h1>Krepšinio naujienos</h1>
+            <p> Šioje svetainėje matysite naujausia informacija susijusia su krepšiniu.
+                Naujienos bus iš popiuliariausiu Lietuvišku internetinių svetainių.
+                Paspaude ant logotipu popiuliariausiu internetinių puslapių apie krepšini, busite nukeltas į jų svetaines.
+            </p>
+            <h2>Istorijos pamokėlė</h2>
+            <p><img src="./images/James_Naismith_with_a_basketball.jpg" height="150px" width="170px">Krepšinio žaidimą sugalvojo kanadietis daktaras Džeimsas Neismitas (James Naismith) 1891 metais. Naujosios sporto šakos paskirtis buvo užimti studentus sportu žiemos metu, kai nėra sąlygų žaisti beisbolą ar amerikietišką futbolą. Pradžioje žaidime buvo naudojamas futbolo kamuolys ir krepšiai su dugnu, taigi po kiekvieno pataikyto metimo kamuolį reikėdavo ištraukti iš krepšio. Komandose buvo po 9 žaidėjus. Pačių pirmųjų krepšinio rungtynių rezultatas buvo tik 1:0
+
+            </p>
+
+            <a href="https://www.krepsinis.net/" ><img src="./images/ac3990c6cb4dcd8923da852f818abc55.jpg" height="180px" width="250px"></a>
+            <a href="https://www.basketnews.lt/"><img src="./images/avatars-000537980727-w6r90q-original.jpg" height="180px" width="300px"></a>
+            <a href="https://lkl.lt/"><img src="./images/channels4_profile.jpg" height="180px" width="300px"></a>
+            
+
+        </div>
+        <div class="about">
+            
+            <h3>Per šį internetinį puslapį galėsite tiesiogiai eiti į popiuliariausias internetines svetaines apie krepsini ir ten skaityti naujausius strapsnius</h3>
+
+            <ul>
+                <li>Naujienos</li>
+                <li>Tvarkaraštis </li>
+                <li>Eurolyga</li>
+                <li>Čempionų Lyga</li>
+                <li>Europos Taurė</li>
+            </ul>
+            
+
+            <p> <img src="./images/2paveiksliukas.jpg" height="150px" width="200px"> Krepsinis.net yra populiariausi internetine svetainė apie krepšinį.<br> Puslapyje laukia naujausia informacija iš krepšinio pasaulio. </p>
+            
+
+            <p><img src="./images/atsisiųsti.jpg" height="150px" width="200px">
+            Basketnews.lt yra antras pats popiuliariausias internetis portalas apie krepšini.<br>Ten taip pat rasite visą naujausia informaciją</p>
+           
+            <p> <img src="./images/atsisiųsti.png" eight="150px" width="200px"> LKL.LT svetaineje pamatysite naujausia informaciją iš Lietuvos krepįinio lygos.<br>
+            Galėsite susipažinti su visomis komandomis kurios rungtiniauja LKL.</p>
+       
+            
+
+        </div>
+        <div class="contact">
+            Norėdami gauti daugiau informacijos, prašome užpildyti lenteles
+            <form action="action_page.php">
+                <label for="fname">Vardas</label>
+                <input type="text" id="fname" name="Vardas">
+                <label for="fname">Pavarde</label>
+                <input type="text" id="fname" name="Pavarde">
+                <label for="fname">Telefonas</label>
+                <input type="text" id="fname" name="Telefonas">
+                <input type="submit" value="Submit">
+            </form>
+
+        </div>
+        <footer class="pabaiga">
+            <p>&#169 Krepsinio pasaulyje. Martinas Rudis. 2022-2022</p>  
+        </footer>
+
+
+        <!--
+            meniu
+            <header
+            <main>
+                <articles>
+            <footer?
+
+
+            <div>
+                <nav>
+            <div hero>
+            <div about>
+            <footer>        
+        -->
+    </section>
+</body>
+
+</html>
