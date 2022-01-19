@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 paskaita - Forma</title>
+    <link rel="stylesheet" href="maine0118css.css">
+</head>
+<body>
+    <section class="pirma"><!-- Kartu -->
+        <h1> Bandomes visokius input'us</h1>
+        <form>
+            <div>
+            <label for="vardoInput">Vardas</label>
+            <input type="text" name="vardoInput" id="vardoInput">
+        </div>
+            <input type="text" name="pavardesInput" id="pavardesInput" placeholder="Cia vesti pavarde"> <br>
+            <div>
+            <label for="slaptazodzioInput">Slaptazodis</label>
+            <input type="password" name="slaptazodzioInput" id="slaptazodzioInput" required>
+        </div>
+        <div>
+        <label for="elPastoInput">Elektroninis pastas email</label>
+        <input type="email" name="elPastoInput" id="elPastoInput" value="xxx@xxx.xxx">
+        </div>
+    <div class="checkBoxAi">
+    <p>Check Box (keliu varinatu pasirinkimas)</p>
+    <div>
+        <label for="htmlInput">HTML</label>
+    <input type="checkbox" name="htmlInput" id="htmlInput"checked>
+     </div>
+     <div>
+        <label for="cssInput">CSSL</label>
+    <input type="checkbox" name="cssInput" id="cssInput">
+     </div>
+     <div>
+        <label for="jsInput">JS</label>
+    <input type="checkbox" name="jsInput" id="jsInput">
+     </div>
+    </div>
+    <div class="radioChekAi">
+        <p>Privalomas vienas pasirinkimas (Radio)</p>
+        <div>
+            <label for="rytasInput">Rytas</label>
+        <input type="radio" name="dienosMetas" id="rytasInput" checked>
+         </div>
+         <div>
+            <label for="dienaInput">Diena</label>
+        <input type="radio" name="dienosMetas" id="dienaInput">
+         </div>
+         <div>
+            <label for="vakarasInput">Vakaras</label>
+        <input type="radio" name="dienosMetas" id="vakarasInput">
+         </div>
+        </div>
+         <div>
+            <label for="datosInput">Date - data</label>
+            <input type="date" name="datosInput" id="datosInput" 
+            value="2022-01-18" min="2022-01-01" max="2022-12-31"><br>
+            <input type="datetime-local" name="" id=""><br>
+            <input type="month" name="" id=""><br> <!--nenaudoti-->
+            <input type="week" name="" id=""> <!--nenaudoti-->
+        </div>
+        <div>
+            <label for="fileInput">Failo ikelimas - File</label>
+            <input type="file" name="fileInput" id="fileInput"
+            accept="image/*,.pdf,.docm,.video/*">
+        </div>
+        <div>
+            <label for="numberInput">Skaicius - number</label>
+            <input type="number" name="numberInput" id="numberInput"
+                min="18" step="0.1">
+        </div>
+        <div>
+            <label for="phoneInput">Telefonas - tel</label>
+            <input type="tel" name="phoneInput" id="phoneInput"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        </div>
+        <div>
+            <label for="urlInput">Nuoroda - url</label>
+            <input type="url" name="urlInput" id="urlInput">
+        </div>
+        <div>
+            <label for="colorInput">Spalva - color</label>
+            <input type="color" name="colorInput" id="colorInput">
+        </div>
+        <div>
+            <label for="rangeInput">Apimtis - range</label>
+            <input type="range" name="rangeInput" id="rangeInput"
+                min="10" max="100" step="0.1" >
+        </div>
+        <div>
+            <label for=""></label>
+            <input type="text" name="" id="">
+        </div>
+        <textarea cols="30" rows="10"></textarea>
+        <div>
+            <label for="selectionAnimals">Pasirinkimas</label><br>
+            <select name="selectionAnimals" id="selectionAnimals">
+                <option value="">--------</option>
+                <option value="dog">Suo</option>
+                <option value="cat">Kate</option>
+                <option value="hamster">ziurkenas</option>
+                <option value="horse">Arklys</option>
+                <option value="badger">Barsukas</option>
+            </select>
+        </div>
+
+        
+        <input type="reset">
+            <input type="Submit" value="Submit" disabled>
+            <button>Submit</button>
+        </form>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,54 @@
+body{
+    border: 10px solid rgb(129, 129, 221);
+    border-radius: 0.5rem;
+margin: 0 auto;
+height: 300px;
+width: 200px;
+padding: 10px 10px;
+}
+
+
+.check{
+    display: inline-block;
+    padding: 10px 10px;
+}
+.in{
+    display: inline-block;
+}
+.in input{
+    width: 70px;
+}
+.check input{
+    width: 70px;
+}
+
+.room{
+    display: inline-block; 
+}
+
+.room select{
+    width: 50px;
+  margin: 5px 5px;
+}
+
+.adult{
+    display: inline-block;
+}
+.adult select{
+    width: 50px;
+    margin: 5px 5px;
+}
+.child{
+    display: inline-block;
+}
+.child select{
+    width: 50px;
+    margin: 5px 5px;
+}
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 0.2rem;
+    padding: 3px 3px;
+    
+}

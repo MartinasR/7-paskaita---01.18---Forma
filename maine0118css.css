@@ -1,0 +1,19 @@
+body{
+    height: 500vh;
+}
+
+.pirma form > div{
+    margin: 10px;
+}
+.checkBoxAi p, .radioChekAi P{
+    margin-bottom: 0;
+}
+
+.checkBoxAi > div, .radioChekAi > div{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.pirma textarea{
+    resize: none;
+}
